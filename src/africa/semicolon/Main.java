@@ -2,6 +2,7 @@ package africa.semicolon;
 
 import static africa.semicolon.BubbleSort.bubbleSort;
 import static africa.semicolon.InsertionSort.insertionSort;
+import static africa.semicolon.MergeSort.mergeSort;
 import static africa.semicolon.SelectionSort.selectionSort;
 
 public class Main {
@@ -12,7 +13,8 @@ public class Main {
 
 //        bubbleSort(array);
 //        selectionSort(array);
-        insertionSort(array);
+//        insertionSort(array);
+        mergeSort(array, 0, 7);
 	// write your code here
     }
 
