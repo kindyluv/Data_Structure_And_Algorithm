@@ -14,7 +14,11 @@ public class Main {
 //        bubbleSort(array);
 //        selectionSort(array);
 //        insertionSort(array);
-        mergeSort(array, 0, 7);
+        mergeSort(array, 0, array.length);
+
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+        }
 	// write your code here
     }
 
